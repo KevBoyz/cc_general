@@ -1,8 +1,7 @@
-melhorar discretização
-divisão treino e teste faz sentido
-marcar o ponto de cotovelo do dbscan
-tirar grid dos dendrogramas
-histogramas contendo todas as variáveis contínuas
-distribuição de todas as vars discretas
-boxplot com graficos separados, escala unica para cada um
-tabela de variancia acumulada para os componentes principais
+Atualize o relatorio_conformidade conforme o atual estado. Para os itens de comparação, isso não é feito em código apenas relatorio, então não veja a falta deles como um problema
+
+Verifique em quais partes do trabalho, levando em conta o que as questões do pdf exigem, onde houve coisas adicionais (que não foram pedidas) que poderiam ser removidas de forma segura para simplificar o trabalho.
+
+verifique se na questão 7 o split treino e teste é estratificado pela var target
+
+os resultados dos modelos da questão 7 estão bons de mais, cheque se não há algum problema
