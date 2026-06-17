@@ -1,0 +1,8 @@
+melhorar discretização
+divisão treino e teste faz sentido
+marcar o ponto de cotovelo do dbscan
+tirar grid dos dendrogramas
+histogramas contendo todas as variáveis contínuas
+distribuição de todas as vars discretas
+boxplot com graficos separados, escala unica para cada um
+tabela de variancia acumulada para os componentes principais
