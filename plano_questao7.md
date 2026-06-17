@@ -64,3 +64,7 @@ Tabela final juntando a melhor configuração do KNN + a Árvore, respondendo à
 - Rodar o notebook (ou um script equivalente via `.venv`) do ponto da Questão 7 em diante e confirmar que todas as células executam sem erro.
 - Conferir que a tabela de comparação do KNN tem 6 linhas com métricas plausíveis (entre 0 e 1) e que a Árvore de Decisão produz métricas comparáveis.
 - Confirmar que trocar `TARGET_MODEL` para outra chave do dicionário (ex.: `"kmeans"`) faz a célula de geração de target rodar sem precisar editar mais nada abaixo.
+
+## Extra
+
+a visualização dos componentes principais 3d deve colorir os pontos apartir dos clusters gerados pelo método ward
