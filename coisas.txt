@@ -14,7 +14,7 @@ modelo de Árvore de Decisão deve ser treinado com e sem os top 5 PCA, e deve m
 
 Faz sentido treinar o Árvore de Decisão usando X_cut_features? a etapa de remoção de redundantes (seleção de features) é vantajosa ou não para o modelo
 
-os pontos de cotovelo definidos automaticamente pelo script, agora devem ser definidos manualmente, crie uma estrutura para que eu possa editar, deixe todos os cotovelos em 1 por padrão. crie uma estrutura também para definir K manualmente nos casos de treinamento, ao invés de selecionar tudo de forma automática, quero definir o K para cada normalização
+os pontos de cotovelo definidos automaticamente pelo script, agora devem ser definidos manualmente, crie uma estrutura para que eu possa editar, deixe todos os cotovelos em 1 por padrão. crie uma estrutura também para definir K manualmente nos casos de treinamento, ao invés de selecionar tudo de forma automática, quero definir o K para cada normalização. avalie se com essa mudança o yellowbrick e a outra lib para o dbscan elbow ainda fazem sentido permanecer no projeto
 
 Crie células markdown proximos dos respectivos códigos explicando:
 como a seleção de paramatros para dbscan é realizada
