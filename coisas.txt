@@ -4,4 +4,18 @@ Verifique em quais partes do trabalho, levando em conta o que as questões do pd
 
 verifique se na questão 7 o split treino e teste é estratificado pela var target
 
-os resultados dos modelos da questão 7 estão bons de mais, cheque se não há algum problema
+os resultados dos modelos da questão 7 estão bons de mais, cheque se não há algum problema. avalie se utilizar kfold seria vantajoso nessa etapa ou se isso é desnecessário e sairia do escopo do projeto
+
+valores para cotovelo definidos manualmente
+
+tabela questão  7 porque a tabela tem weighted nos nomes? não é melhor remover weighted deixando apenas os nomes usuais?
+
+modelo de Árvore de Decisão deve ser treinado com e sem os top 5 PCA, e deve mostrar gráficos da árvore gerada pelo modelo
+
+Faz sentido treinar o Árvore de Decisão usando X_cut_features? a etapa de remoção de redundantes (seleção de features) é vantajosa ou não para o modelo
+
+os pontos de cotovelo definidos automaticamente pelo script, agora devem ser definidos manualmente, crie uma estrutura para que eu possa editar, deixe todos os cotovelos em 1 por padrão. crie uma estrutura também para definir K manualmente nos casos de treinamento, ao invés de selecionar tudo de forma automática, quero definir o K para cada normalização
+
+Crie células markdown proximos dos respectivos códigos explicando:
+como a seleção de paramatros para dbscan é realizada
+como o corte automático do dendrograma é realizado
