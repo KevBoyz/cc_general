@@ -12,4 +12,6 @@ Outros outputs: qualquer output que no notebook aparecia por exibição implíci
 
 Fidelidade: cada arquivo .py deve produzir, ao ser executado isoladamente, exatamente as mesmas informações (texto e figuras) que a(s) célula(s) correspondente(s) produziam no notebook — nada a mais, nada a menos.
 
+Os arquivos devem seguir as boas práticas e um código organizado. todos eles devem ser orientados a funções e ter uma função pipeline que chama tudo. Arquivos como utils.py não devem ser criados, coisas reutilizadas de questões anteriores devem ser simplesmente importadas dos arquivos respectivos
+
 Ao final na criação dos arquivos, valide estaticamente se o estado das variaveis, e outputs se manterá identico ao notebook
